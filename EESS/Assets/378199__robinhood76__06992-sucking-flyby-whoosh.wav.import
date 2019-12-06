@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/378199__robinhood76__06992-sucking-flyby-whoosh.wav-5986e65d6bbd9d7acb42e540657309f5.sample"
+
+[deps]
+
+source_file="res://Assets/378199__robinhood76__06992-sucking-flyby-whoosh.wav"
+dest_files=[ "res://.import/378199__robinhood76__06992-sucking-flyby-whoosh.wav-5986e65d6bbd9d7acb42e540657309f5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
