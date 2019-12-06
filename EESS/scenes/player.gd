@@ -1,8 +1,8 @@
 extends Area2D
 const TURN_SPEED = 180 # how fast the ship will turn
 const MOVE_SPEED = 150 # ship's speed
-const ACC = 0.05 # acceleration %
-const DEC = 0.01 # deceleration %
+const ACC = 1.5 # acceleration %
+const DEC = 0.5 # deceleration %
 var motion = Vector2(0,0) # ship's actual move direction (not the desired move direction)
 var screen_size # set in _ready()
 var screen_buffer = 8 # how far off screen before it wraps
@@ -29,3 +29,7 @@ func _process(delta):
 	# wraps position to the other side of the screen when moving off
 	position.x = wrapf(position.x, -screen_buffer, screen_size.x + screen_buffer)
 	position.y = wrapf(position.y, -screen_buffer, screen_size.y + screen_buffer)
+	
+func _unhandled_key_input(event:  InputEventKey) -> void:
+	if (event.is_action_pressed("shoot")):
+		$LaserWeapon.shoot()

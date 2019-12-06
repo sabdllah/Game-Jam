@@ -6,17 +6,16 @@
 [sub_resource type="CircleShape2D" id=1]
 radius = 23.372
 
-[node name="Node2D" type="Node2D"]
-
-[node name="asteroid" type="Area2D" parent="."]
+[node name="asteroid" type="RigidBody2D" groups=[
+"asteroids",
+]]
 script = ExtResource( 1 )
-velocity = Vector2( 0, 100 )
 
-[node name="Sprite" type="Sprite" parent="asteroid"]
+[node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 68, 66 )
 scale = Vector2( 0.3, 0.3 )
 texture = ExtResource( 2 )
 
-[node name="shape" type="CollisionShape2D" parent="asteroid"]
+[node name="shape" type="CollisionShape2D" parent="."]
 position = Vector2( 65, 65 )
 shape = SubResource( 1 )
