@@ -1,2 +1,3 @@
-# Game-Jam
-End of the World Game Jam
+Welcome to our Game Jam assignment! Here is a brief description:
+
+Oh no!  There is an asteroid attack on planet Earth that will eventually kill the entire population if not stopped! The objective of the game is to deter the asteroids off course so that they do not land on planet earth. You are the spaceship and you will emit a high mass object that when contacted with the asteroid will deter its course away from Earth. As the game progresses, the asteroids will become more and more prevalent and contain fire. Score points based on how many steroids they deter from landing on Earth and score higher points for deterring fire asteroids!  You will lose when not enough asteroids are deterred and earth is destroyed resulting in “The End of The World”.
