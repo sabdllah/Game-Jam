@@ -17,7 +17,7 @@ radius = 33.9092
 [node name="Game" type="Node2D"]
 
 [node name="background" type="Sprite" parent="."]
-position = Vector2( 507.5, 282.5 )
+position = Vector2( 510.673, 279.327 )
 scale = Vector2( 0.532292, 0.532361 )
 texture = ExtResource( 1 )
 
